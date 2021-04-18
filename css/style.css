@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-image: 
+    url("/img/bg.jpg");
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+input{
+    width: 88%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    
+}
+button{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    background-color: tomato;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+}
+input:focus, button:focus{
+    outline: none;
+}
+.container{
+    width: 80%;
+    height: 270px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    margin-top: -45px;
+    
+}
+
+.title, .login{
+    margin-top: 45px;
+}
+
+/* welcome */
+
+h4{
+    margin-top: 20px;
+    color: red;
+    text-transform: uppercase;
+}
+.butt{
+    margin-top: 25px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* level1 style */
+.level1{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100%;
+   
+    
+    
+}
+
+.colorHold{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 15%;
+    
+
+}
+.colors{
+    width: 15%;
+    height: 90%;
+    margin-top: 5px;
+    
+}
+
+.red{
+    background-color: red;
+    
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+h2{
+    padding: 5px;
+}
+.levelcomplete{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100%;
+    /* justify-content: space-evenly; */
+    display: none;
+}
+#replay{
+    width: 40%;
+    height: 7%;
+    position:absolute;
+    top: 45%;
+    left: 5%;
+}
+.leveltwo{
+    width: 40%;
+    height: 7%;
+    background-color: red;
+    position:absolute;
+    top: 45%;
+    left: 55%;
+}
